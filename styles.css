@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+  .main {
+      display: flex;
+      flex-direction: column;
+  }
+  .first {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    justify-content: space-around;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.why {
+    padding-top: 100px ;
+    font-family: 'Raleway';
+    color: #212121;
+    font-size: 36px
+    ;
+}
+.circle{
+    position: absolute;
+}
+
+.line{
+    width: 64px;
+    height: 2px;
+    color: #E72424;
+}
+h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+p{
+    color: #86878B;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.black {
+    color: black;
+}
+.second {
+    display: flex;
+    padding: 40px 20px;
+    flex-direction: row;
+    text-align: center;
+    gap: 60px;
+}
+.third {
+    position: relative;
+    text-align: center;
+}
+.down{
+    position: absolute;
+    color: #FFFFFF;
+    margin: 76px 476px 210px;
+    font-weight: normal;
+    font-size: 36px;
+}
+.foot{
+    padding-top: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 15px;
+    }
+.city {
+        position: absolute;
+        filter: brightness(50%);
+        width: 1400px;
+        height: 326px;
+    }
+    h4 {
+        position: relative;
+        font-family: 'Raleway';
+        color: #FFFFFF;
+        font-size: 36px;
+     }
+     .p2 {
+        color: #FFFFFFCC;
+        font-family: 'Raleway';
+    }
+    button {
+        background-color: transparent;
+        border: 1px solid white;
+        width: 145px;
+        height: 42px;
+        color: white;
+        font-size: 16px;
+        margin: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    .footer {
+        background-color: black;
+        height: 110px;
+        width: 1400px;
+        position: absolute;
+        text-align: center;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+    }
+    .icons{
+        padding: 30px 500px 20px;
+    }
+    
