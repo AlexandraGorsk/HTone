@@ -171,3 +171,32 @@
     color: #86878B;
     margin-bottom: 17px;
    }
+   .features.container{
+       display: flex;
+       flex-direction: row;
+   }
+   .features{
+       width: 1400px;
+       background: navajowhite;
+       height: 600px;
+   }
+   .features.button {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 10px;
+   }
+   button.tab.one{
+       background: #EC7979;
+       border: 1px solid #EC7979 ;
+   }
+   button.tab{
+    margin: 0;
+    font: 700 15px 'Open Sans';
+    color: #Ffffff;
+    width: 112px;
+    height: 110px;
+    background:#333333;
+    border: 1px solid #333333;
+    border-radius: 4px; 
+   }
