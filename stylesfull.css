@@ -177,14 +177,15 @@
    }
    .features{
        width: 1400px;
-       background: navajowhite;
-       height: 600px;
    }
    .features.button {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       gap: 10px;
+    display: flex;
+    flex:1 ;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 125px;
+    padding-bottom: 125px;
    }
    button.tab.one{
        background: #EC7979;
@@ -200,3 +201,35 @@
     border: 1px solid #333333;
     border-radius: 4px; 
    }
+   .features h5{
+       margin-left: -147px;
+       padding-top: 126px;
+       margin-bottom: 58px;
+       text-transform: uppercase;
+       font: 700 20px 'Open Sans';
+       color: #000000;
+   }
+   .features p{
+        margin-left: -147px;
+       text-transform: uppercase;
+       font: 400 14px 'Open Sans';
+       color: #86868B;
+       width: 572px;
+       height: 133px;
+
+   }
+   .features.img{
+    margin-left: -247px;
+       padding-top: 100px;
+       width: 320px;
+       height: 253px;
+   }
+   .download{
+    margin-left: -147px;
+    margin-top: 90px;
+       border: 1px solid #EC7979;
+       background-color: #EC7979;
+       font: 600 15px 'Open Sans';
+       color: #Ffffff;
+   }
+   
