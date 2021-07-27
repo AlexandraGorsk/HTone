@@ -298,7 +298,6 @@
 .pricing {
     width: 1400px;
     text-align: center;
-    height: 800px;
     background: #F5F5F5
 }
 .containerpricing {
@@ -324,7 +323,7 @@
     width: 363px;
     height: 19px;
     white-space: nowrap;
-    margin-bottom: 62px;
+    margin-bottom: 47px;
 }
 .pricingrate{
     display: flex;
@@ -347,7 +346,7 @@ li.standart {
     font: 400 14px 'Open Sans';
     color: #86868B;
 }
-li.last-child {
+li:last-child {
     margin-bottom: 60px;
 }
 li.basic {
@@ -376,5 +375,61 @@ li.free{
     margin-bottom: 4px;
     font: 600 14px 'Open Sans';
     color: rgba(255, 255, 255, 0.5)
-   
+}
+.reviews{
+    text-align: center;
+    width: 1400px;
+}
+.containerreviews{
+    padding: 0 137px 0 157px;
+}
+.reviewstitle h2 {
+    width: 668px;
+    padding-top: 80px;
+    text-transform: uppercase;
+    margin: auto;
+    font: 400 36px 'Raleway', sans-serif;
+    color: #333333;
+}
+.reviewstitle p{
+    font: 400 14px 'Open Sans';
+    color: #86878B;
+    margin: auto;
+    width: 363px;
+    height: 19px;
+    white-space: nowrap;
+    margin-bottom: 67px;
+}
+.reviewsquote{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.speech{
+    height: 110px ;
+    width: 298px;
+    border: #E2E2E2;
+    border-radius: 7px;
+    background: #E2E2E2;
+    margin-bottom: 22px;
+}
+.speech p{
+font: 400 14px 'Open Sans';
+align-items: center;
+color: #86868B;
+padding: 8px 0 0 18px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.name p{
+   font: 400 14px 'Open Sans';
+   color: #86868B;
+}
+.name h5{
+    font: 700 20px 'Open Sans';
+    color: #333333;
 }
