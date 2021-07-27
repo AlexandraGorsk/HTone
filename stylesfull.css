@@ -295,3 +295,86 @@
     font:400 14px 'Open Sans';
     color: #000000;
 }
+.pricing {
+    width: 1400px;
+    text-align: center;
+    height: 800px;
+    background: #F5F5F5
+}
+.containerpricing {
+    padding: 0 112px 0 113px;
+}
+.lineorange{
+ width: 64px;
+ height: 2px;
+ background: #E72424;
+ margin: 34px auto;
+}
+.pricingtitle h2 {
+    padding-top: 80px;
+    text-transform: uppercase;
+    margin: auto;
+    font: 400 36px 'Raleway', sans-serif;
+    color: #333333;
+}
+.pricingtitle p{
+    font: 400 14px 'Open Sans';
+    color: #86878B;
+    margin: auto;
+    width: 363px;
+    height: 19px;
+    white-space: nowrap;
+    margin-bottom: 62px;
+}
+.pricingrate{
+    display: flex;
+    direction: row;
+    gap: 77px;
+}
+.ratecolumn{
+    width: 340px;
+}
+ul li{
+    list-style-type: none;
+}
+li.standart {
+    padding: 9px 0;
+    margin-bottom: 4px;
+    height: 40px;
+    width: 340px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font: 400 14px 'Open Sans';
+    color: #86868B;
+}
+li.last-child {
+    margin-bottom: 60px;
+}
+li.basic {
+    padding: 13px 0;
+    height: 50px;
+    width: 340px;
+    background: #333333;
+    font: 700 20px 'Open Sans';
+    color: #FFFFFF;
+    margin-bottom: 1px;
+}
+li.price {
+    padding: 28px 0;
+    height: 100px;
+    width: 340px;
+    background: #333333;
+    font: 700 35px 'Raleway';
+    color: #FFFFFF;
+    margin-bottom: 2px;
+}
+li.free{
+    padding: 13px 0;
+    height: 50px;
+    width: 340px;
+    background: #333333;
+    margin-bottom: 4px;
+    font: 600 14px 'Open Sans';
+    color: rgba(255, 255, 255, 0.5)
+   
+}
