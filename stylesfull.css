@@ -464,3 +464,28 @@ padding: 8px 0 0 18px;
     height: 2px;
     background: #Ffffff;
 }
+.contact{
+    width: 1400px;
+    height: 700px;
+    text-align: center;
+}
+.containercontact {
+    padding: 0 110px 0 110px;
+}
+.contacttitle h2 {
+    width: 668px;
+    padding-top: 80px;
+    text-transform: uppercase;
+    margin: auto;
+    font: 400 36px 'Raleway', sans-serif;
+    color: #333333;
+}
+.contacttitle p{
+    font: 400 14px 'Open Sans';
+    color: #86878B;
+    margin: auto;
+    width: 363px;
+    height: 19px;
+    white-space: nowrap;
+    margin-bottom: 67px;
+}
