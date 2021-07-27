@@ -433,3 +433,34 @@ padding: 8px 0 0 18px;
     font: 700 20px 'Open Sans';
     color: #333333;
 }
+.stylish{
+    height: 326px;
+    width: 1400px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .45),rgba(0, 0, 0, .55)),url(images/footer.png);
+    background-size:cover;
+    text-align: center;
+}
+.stylishtitle h2 {
+    width: 448px;
+    padding-top: 58px;
+    text-transform: uppercase;
+    margin: auto;
+    font: 400 36px 'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+.stylishtitle p{
+    font: 300 16px 'Open Sans';
+    color: #FFFFFF;
+    opacity: .8;
+    margin: auto;
+    width: 779px;
+    height: 19px;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+.stylishline {
+    margin: 34px 0 34px 0;
+    width: 64px;
+    height: 2px;
+    background: #Ffffff;
+}
