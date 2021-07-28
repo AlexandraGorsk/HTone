@@ -285,7 +285,7 @@
     text-align: center;
     color: #333;
     margin-bottom: 16px;
-    font-weight: 700;
+    font: 700 20px 'Open Sans';
 }
 .awesome-col p{
     text-align: center;
@@ -488,4 +488,33 @@ padding: 8px 0 0 18px;
     height: 19px;
     white-space: nowrap;
     margin-bottom: 67px;
+}
+.inputinfo {
+    display: flex;
+}
+.sendbuttom{
+    margin-top: 69px;
+    margin-bottom: 44px;
+    border: 1px solid #EC7979;
+    background-color: #EC7979;
+    font: 600 15px 'Open Sans';
+    color: #Ffffff;
+}
+.footer{
+    background: #000000;
+    width: 1400px;
+    height: 101px;
+}
+.footer img{
+    width: 317px;
+    height: 23px;
+    margin: 30px 542px 0 541px;
+}
+.footer p{
+    font: 400 12px 'Open Sans';
+    text-align: center;
+    color: #FFFFFF;
+    opacity: .5;
+    width: 130px;
+    margin: 18px auto 15px;
 }
